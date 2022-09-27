@@ -30,7 +30,7 @@ const KoxiaStr = ref<string>(RandomKoxia());
 
 <template>
   <el-row justify="center">
-    <el-col :span="12">
+    <el-col :md="{span:12}">
       <el-container>
         <el-header>
           <h1>Koxia Generator</h1>
