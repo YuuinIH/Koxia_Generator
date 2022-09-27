@@ -36,10 +36,10 @@ const KoxiaStr = ref<string>(RandomKoxia());
           <h1>Koxia Generator</h1>
         </el-header>
         <el-main>
+          <a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/YuuinIH/Koxia_Generator"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
           <p>こんしや~在梦境中寻找魔法💫</p>
           <p>吾乃☆神崎·主天使·S·恋之诗夜·koxia·生成器☆</p>
           <p>只要按下生成 就会产生新的こんしや啦！</p>
-          <a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/YuuinIH/Koxia_Generator"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
           <p>不要忘记关注<a target="_blank" rel="noopener noreferrer nofollow" href="https://space.bilibili.com/690608690/">☆神崎·主天使·S·恋之诗夜·koxia☆</a>哦！</p>
           <el-card>
             <el-button @click="KoxiaStr = RandomKoxia()">生成</el-button>
